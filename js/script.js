@@ -4,7 +4,7 @@ const books = [
   {
     id: 0,
     name: "Fundamentals of Cyber Security",
-    image: "./images/a6b2c819348c830360ae5395a1796136.png",
+    image: "https://i.ibb.co/mycxWGb/Computer-programming-in-c.png",
     link: "https://shorturl.at/37XJS",
     description: " (CSC 301) The Cybersecurity School Manual is a comprehensive guide designed to equip students and professionals with the foundational knowledge and advanced skills necessary to navigate the dynamic field of cybersecurity. This manual offers a structured approach to understanding core cybersecurity principles, techniques, and best practices to protect systems, networks, and data.",
   },
