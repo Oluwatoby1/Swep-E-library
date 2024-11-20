@@ -289,9 +289,9 @@ body {
     text-overflow: ellipsis; 
     color: #161C2D;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
-    margin-inline-end: 0.75rem;
+    /* margin-inline-end: 0.75rem; */
     /* width: 70%; */
     /* letter-spacing: normal; */
   }
@@ -318,7 +318,7 @@ body {
     height: auto;
     color: var(--Gray-3);
     font-family: "Poppins", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 300;
     /* line-height: 15px; 150% */
