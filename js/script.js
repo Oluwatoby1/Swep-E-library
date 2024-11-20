@@ -88,7 +88,7 @@ function openModal(book) {
   title.textContent = book.name;
   modalDescription.textContent = book.description;
   modalReadButton.href = book.link;
-  modalDownloadButton.href = book.link;
+  modalDownloadButton.download = book.link;
 
   modal.style.display = "flex"
 }
