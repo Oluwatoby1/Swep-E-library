@@ -15,7 +15,7 @@ body {
   overflow-x: 0;
   background: var(--background);
   letter-spacing: -0.031rem;
-  background-color: #f6f6f6;
+  background-color: #fcfcfc;
 }
 
 .menu-wrapper {
