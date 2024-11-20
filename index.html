@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Swep E-Library</title>
+    
+  </head>
+  <body>
+    <header class="menu-wrapper">
+      <div class="logo">
+        <img
+          src="/Images/csc library logo.png"
+          alt="Ebook logo"
+        />
+      </div>
+      <!-- <nav class="nav">
+        <ul class="navigation hide">
+          <li>
+            <button type="button" class="nav-btn">
+              <div>Use Cases</div>
+              <img
+                src="./Images/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </button>
+            <div class="dropdown-box">
+              <div class="dropdown">
+                <ul class="list-item">
+                  <li>
+                    <div class="item-title">
+                      <div class="title-word">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <button type="button" class="nav-btn">
+              <div>Resources</div>
+              <img
+                src="./Images/keyboard_arrow_down_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </button>
+            <div class="dropdown-box">
+              <div class="dropdown">
+                <ul class="list-item">
+                  <li>
+                    <div class="item-title">
+                      <div class="title-word">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <button type="button" class="nav-btn">
+              <div>Pricing</div>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="nav-btn">
+              <div>What's New?</div>
+            </button>
+          </li>
+        </ul>
+      </nav> -->
+
+      <!-- <button type="button" class="btn">
+        <h3>Book a Demo</h3>
+      </button> -->
+    </header>
+    <main class="main">
+      <section class="content">
+        <h1>Your Gateway to Comprehensive Computer Science Manuals</h1>
+        <div class="search-cont">
+          <img class="search-icon" src="./Images/Search.svg" alt="" width="20px" height="20px"/>
+          <input
+            placeholder="Search for manuals... eg: csc 301"
+            type="search"
+            name=""
+            id="search"
+            class="search-input"
+          />
+        </div>
+      </section>
+      <section id="book-container" class="book-container"></section>
+      <!-- Modal section -->
+       <section class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-flex">
+                    <img id="modal-image" src="" alt="">
+                    <div class="modal-details">
+                        <h2 id="modal-title">Book Title</h2>
+                        <p id="modal-description" class="desc">Book description goes here...</p>
+                        <div class="modal-button">
+                            <a id="modal-read-button" href="#" target="_blank">
+                              <button>Read</button>
+                            </a>
+                            <a id="modal-download-button" href="" download>
+                                <button>Download</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+    </main>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
